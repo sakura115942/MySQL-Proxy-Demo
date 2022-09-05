@@ -1,0 +1,26 @@
+[2022-09-05 06:54:46,176] [INFO] MySQL proxy server start ...
+[2022-09-05 06:54:49,449] [INFO] Connected by ('127.0.0.1', 52282)
+[2022-09-05 06:54:52,337] [INFO] 1
+[2022-09-05 06:54:52,337] [ERROR] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+[2022-09-05 06:55:06,518] [INFO] 
+[2022-09-05 06:55:06,518] [ERROR] No result set to fetch from
+[2022-09-05 06:55:06,518] [INFO] 
+[2022-09-05 06:55:06,518] [ERROR] No result set to fetch from
+[2022-09-05 06:55:11,117] [INFO] MySQL proxy server start ...
+[2022-09-05 06:55:12,797] [INFO] Connected by ('127.0.0.1', 52284)
+[2022-09-05 06:59:47,441] [INFO] MySQL proxy server start ...
+[2022-09-05 06:59:56,939] [INFO] Connected by ('127.0.0.1', 41260)
+[2022-09-05 06:59:59,234] [INFO] exit
+[2022-09-05 06:59:59,234] [ERROR] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exit' at line 1
+[2022-09-05 07:24:56,250] [INFO] MySQL proxy server start ...
+[2022-09-05 07:26:26,662] [INFO] MySQL proxy server start ...
+[2022-09-05 07:26:28,731] [INFO] Connected by ('127.0.0.1', 52286)
+[2022-09-05 07:26:35,378] [INFO] show databases
+[2022-09-05 07:26:35,379] [INFO] [('ddd',), ('foo',), ('information_schema',), ('mysql',), ('performance_schema',), ('sys',)]
+[2022-09-05 07:26:35,380] [ERROR] send() missing 1 required positional argument: 'content'
+[2022-09-05 07:27:46,082] [INFO] MySQL proxy server start ...
+[2022-09-05 07:27:48,359] [INFO] Connected by ('127.0.0.1', 52288)
+[2022-09-05 07:27:51,151] [INFO] show databases
+[2022-09-05 07:27:51,153] [INFO] [('ddd',), ('foo',), ('information_schema',), ('mysql',), ('performance_schema',), ('sys',)]
+[2022-09-05 07:27:56,686] [INFO] ('127.0.0.1', 52288) exited
+[2022-09-05 07:27:56,686] [INFO] ('127.0.0.1', 52288) send 95 bytes, receive 18 bytes
