@@ -50,7 +50,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 message = _message.decode()
 
                 if message.lower().strip() == 'quit':
-                    conn.sendall(b'Bye')
                     nsend_bytes += send(conn, 'Bye')
                     logger.info(f"{addr} exited")
                     logger.info(f"{addr} send {nsend_bytes} bytes, receive {nrecv_bytes} bytes")

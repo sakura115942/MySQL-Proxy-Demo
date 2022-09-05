@@ -24,3 +24,13 @@
 [2022-09-05 07:27:51,153] [INFO] [('ddd',), ('foo',), ('information_schema',), ('mysql',), ('performance_schema',), ('sys',)]
 [2022-09-05 07:27:56,686] [INFO] ('127.0.0.1', 52288) exited
 [2022-09-05 07:27:56,686] [INFO] ('127.0.0.1', 52288) send 95 bytes, receive 18 bytes
+[2022-09-05 07:32:42,889] [INFO] MySQL proxy server start ...
+[2022-09-05 07:32:52,122] [INFO] Connected by ('127.0.0.1', 52290)
+[2022-09-05 07:32:57,767] [INFO] show databases;
+[2022-09-05 07:32:57,768] [INFO] [('ddd',), ('foo',), ('information_schema',), ('mysql',), ('performance_schema',), ('sys',)]
+[2022-09-05 07:33:07,285] [INFO] ('127.0.0.1', 52290) exited
+[2022-09-05 07:33:07,285] [INFO] ('127.0.0.1', 52290) send 95 bytes, receive 19 bytes
+[2022-09-05 07:42:04,961] [INFO] MySQL proxy server start ...
+[2022-09-05 07:42:07,390] [INFO] Connected by ('127.0.0.1', 52292)
+[2022-09-05 07:42:09,320] [INFO] ('127.0.0.1', 52292) exited
+[2022-09-05 07:42:09,320] [INFO] ('127.0.0.1', 52292) send 3 bytes, receive 4 bytes
